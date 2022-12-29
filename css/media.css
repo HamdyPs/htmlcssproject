@@ -1,0 +1,198 @@
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  header nav .logo {
+    font-size: 20px;
+  }
+
+  header .content .info {
+    right: -50px;
+  }
+
+  header .content .icons {
+    top: 850px;
+    right: -50px;
+  }
+
+  header nav .navlist li a {
+    font-size: 17px;
+  }
+
+  .about {
+    height: 900px;
+    background: #111;
+  }
+
+  .aboutContent .card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .aboutContent .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .contact {
+    height: 900px;
+  }
+
+  .wholeContact {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    margin-top: 60px;
+  }
+
+  .aboutContent .card .details {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .rightForm input {
+    width: 250px;
+  }
+}
+
+@media (max-width: 766px) {
+  header nav .navlist {
+    display: none;
+  }
+
+  header nav .logo {
+    font-size: 16px;
+  }
+
+  .btndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menubtn {
+    display: block;
+    padding: 8px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+
+  header .content .info {
+    right: -100px;
+    top: 40px;
+    color: #fff;
+    border-left: 1px solid #444;
+    padding: 5px 10px;
+  }
+
+  header .content .info h4 {
+    font-size: 20px;
+  }
+
+  header .content .info h1 {
+    font-size: 40px;
+  }
+  header .content .icons {
+    position: absolute;
+    top: 450px;
+    right: -20px;
+    width: fit-content;
+    height: 200px;
+    padding: 20px 0px;
+  }
+
+  header .content .icons ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+  }
+
+  .about {
+    height: 900px;
+    background: #111;
+  }
+
+  .aboutContent .card {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0%;
+  }
+
+  .aboutContent .card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .aboutContent .card .details h2 {
+    font-size: 20px;
+  }
+
+  .aboutContent .card .details p {
+    font-size: 16px;
+  }
+
+  .contact {
+    height: 850px;
+    background: #111;
+  }
+
+  .contact h2 {
+    font-size: 25px;
+  }
+
+  .contact h2:hover::before {
+    width: 76%;
+  }
+
+  .contact h2:hover::after {
+    width: 76%;
+  }
+
+  .wholeContact {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+    margin-top: 60px;
+  }
+
+  .leftForm {
+    border: none;
+  }
+
+  .leftForm textarea {
+    width: 100%;
+  }
+
+  .leftForm h3 {
+    font-size: 16px;
+  }
+
+  .rightForm input {
+    width: 250px;
+  }
+
+  .rightForm div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    font-size: 13px;
+  }
+}
